@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wave_i contact</title>
+    <link rel="stylesheet" type="text/css" href="styles_contact.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <a href="index.html"><img src="pics/logo.png" alt="logo" /></a>
+      <ul class="menulist">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="company.html">COMPANY</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="contact.html"><strong>CONTACT</strong></a></li>
+      </ul>
+    </nav>
+
+    <div class="container_contact">
+      <div id="bg"class="bg_content_contact">
+        <div id="bg_txt"class="txt_content_contact">
+          
+          <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+            <p>Name: <input type="text" name="name_control" autofocus required /></p>
+
+            <p>email: <input type="email" name="email_control" required /></p>
+            
+            <p>Phone: <input type="tel" name="tel_control" /></p>
+            
+            <p><input type="submit" value="Submit!" /></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2023 Wave Industries. All rights reserved</p>
+    </div>
+  </body>
+</html>

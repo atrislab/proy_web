@@ -1,0 +1,65 @@
+/* estilo universal de fuente para toda la página */
+
+html * {
+    font-family: "Gotham", "Helvetica", sans-serif;
+} 
+
+/* estilos correspondientes a los divs del menú */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.menulist {
+  text-align: center;
+}
+
+.menulist li {
+  letter-spacing: 0.05em;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.menulist a {
+  color: #002144;
+  text-decoration: none;
+}
+
+/* estilos correspondientes a los divs del contenido */
+
+.container_index {
+    display:flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.bg_content_index {
+  width: 960px;
+  height: 480px;
+  align-self: center;
+  background-color: black;
+  background-image: url(pics/img_bg_content_index.jpg);
+  background-repeat: no-repeat;
+}
+
+  .txt_content_index {
+    width: 256px;
+    height: 256px;
+    color: white;
+    margin-top: 90px;
+    margin-left: 90px;
+  }
+
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1px;
+    text-align: center;
+    font-size: smaller;
+  }

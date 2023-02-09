@@ -1,0 +1,72 @@
+html * {
+    font-family: "Gotham", "Helvetica", sans-serif;
+} 
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.menulist {
+  text-align: center;
+}
+
+.menulist li {
+  letter-spacing: 0.05em;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.menulist a {
+  color: #002144;
+  text-decoration: none;
+}
+
+  /* La estructura de "company" se compone de un div contenedor y otros dos divs para texto e imagen */
+
+  .container_company {
+    display: flex;
+    margin-top: 20px;
+    height: 480px;
+    align-self: center;
+    justify-content: center;
+  }
+  
+  .left_company {
+    display: flex;
+    justify-content: center;
+    width: 640px;
+    height: 480px;
+    background-color: rgb(140, 170, 220);
+  }
+
+  .txt_company {
+    margin-top: 20px;
+    padding: 2% 3% 3% 3%;
+    width: 400px;
+    height: 400px;
+    color: #002144;
+    background-color: rgb(170, 190, 220);
+    text-align: justify;
+    border-radius: 20px;
+  }
+  
+  .right_company {
+    width: 320px;
+    height: 480px;
+    background-color: red;
+  }
+
+
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1px;
+    text-align: center;
+    font-size: smaller;
+  }

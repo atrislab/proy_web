@@ -1,0 +1,96 @@
+/* asignamos una familia de fuentes para toda la página */
+
+html * {
+    font-family: "Gotham", "Helvetica", sans-serif;
+} 
+
+/* estilos correspondientes al nav */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.menulist {
+  text-align: center;
+}
+
+.menulist li {
+  letter-spacing: 0.05em;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.menulist a {
+  color: #002144;
+  text-decoration: none;
+}
+
+  /* La estructura de ".container_products" se compone de un div contenedor y tres divs "hijos" */
+
+  .container_products {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;   
+  }
+  
+  .left_products {
+    width: 320px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .middle_products {
+    width: 320px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .right_products {
+    width: 320px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .img_prod01 {
+    
+    width: 300px;
+    height: 256px;
+    display: flex;
+  }
+
+  .txt_prod01 {
+    margin-bottom: 46px;
+    width: 300px;
+    height: 150px;
+    background-color:rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    border-radius: 10px;
+  }
+
+  .txt_prod01 a {
+    color: #002144;
+    text-decoration: none;
+  }
+
+
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1px;
+    text-align: center;
+    font-size: smaller;
+  }

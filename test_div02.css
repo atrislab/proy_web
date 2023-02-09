@@ -1,0 +1,26 @@
+.padre{
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hijo01{
+    margin-top: 10px;
+    height: 256px;
+    width: 400px;
+    background-color: rgb(150, 200, 190);
+    display: flex;
+    justify-content: center;
+}
+
+.hijo02{
+    margin-top: 10px;
+    height: 128px;
+    width: 400px;
+    background-color: rgb(150, 200, 190);
+    display: flex;
+    justify-content: center;
+}
